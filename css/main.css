@@ -167,7 +167,7 @@ header nav .nav-list .list a:hover, header nav .nav-list .list a:focus {
 .home {
   height: 500px;
   position: relative;
-  background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)), url(/dist/images/home.jpg) no-repeat center center;
+  background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)), url(../images/home.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -545,7 +545,7 @@ header nav .nav-list .list a:hover, header nav .nav-list .list a:focus {
 .business {
   position: relative;
   color: #FFF;
-  background: linear-gradient(rgba(27, 20, 20, 0.5), rgba(27, 20, 20, 0.5)), url(/dist/images/eat.jpg) no-repeat center;
+  background: linear-gradient(rgba(27, 20, 20, 0.5), rgba(27, 20, 20, 0.5)), url(../images/eat.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
   display: flex;
