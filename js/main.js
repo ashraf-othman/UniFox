@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     if (sc > 500) {
       //scroll top btn
-      $(".scrolltop").fadeIn();
+      $(".scrolltop").fadeIn(2000);
     } else {
       $(".scrolltop").fadeOut();
     }
@@ -117,7 +117,7 @@ $(document).ready(function () {
     $("body, html").animate({
         scrollTop: 0
       },
-      1000
+      2000
     );
   });
 
@@ -129,5 +129,5 @@ $(document).ready(function () {
   });
 
   //loading
-  $(".loading-overlay").fadeOut(10000);
+  $(".loading-overlay").fadeOut(1000);
 });
